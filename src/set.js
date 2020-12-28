@@ -1,5 +1,5 @@
 'use strict';
-// // credits mostly go to https://github.com/coderaiser/nessy
+// credits mostly go to https://github.com/coderaiser/nessy
 
 const notSecure = a => /__proto__|prototype/.test(a);
 
