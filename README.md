@@ -1,4 +1,6 @@
 # object-rover
+[![npm version](https://badge.fury.io/js/object-rover.svg)](https://badge.fury.io/js/object-rover)
+<span class="badge-patreon"><a href="https://patreon.com/antoniormrzz" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span> <br/>
 
 A package to get, read and modify nested javascript object properties. List all nested leaf properties of object, optionally get their primitive types, then iterate over them and change what you need. Very useful for json validation.
 This package will be used for a complete rewrite of [express-autosanitizer](https://www.npmjs.com/package/express-autosanitizer), a popular tool that cleans xss injections from express requests.
