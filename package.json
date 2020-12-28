@@ -1,7 +1,7 @@
 {
   "name": "object-rover",
   "version": "1.0.0",
-  "description": "A library to get, read and modify nested javascript object properties.",
+  "description": "A package to get, read and modify nested javascript object properties.",
   "main": "index.js",
   "scripts": {
     "test": "jest"

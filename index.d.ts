@@ -1,23 +1,32 @@
 declare type PrimitiveType =
-  | 'string'
-  | 'boolean'
-  | 'array'
-  | 'undefined'
-  | 'number'
-  | 'bigint'
-  | 'symbol'
-  | 'null'
-  | 'function';
-export declare function getProperties(obj: Object, divider?: string): string[];
-export declare function getPropertiesAsync(obj: Object, divider?: string): Promise<string[]>;
+  | string
+  | boolean
+  | array
+  | undefined
+  | number
+  | bigint
+  | symbol
+  | null
+  | function;
+export declare function getProperties(obj: object, divider?: string): string[];
+export declare function getPropertiesAsync(obj: object, divider?: string): Promise<string[]>;
 export declare function getPropertiesWithTypes(
-  obj: Object,
+  obj: object,
   divider?: string
 ): { path: string; type: PrimitiveType }[];
 export declare function getPropertiesWithTypesAsync(
-  obj: Object,
+  obj: object,
   divider?: string
 ): Promise<{ path: string; type: PrimitiveType }[]>;
-export declare function setProperty(obj: Object, selector: string, value: any, divider?: string): Object;
-export declare function getProperty(obj: Object, selector: string, divider?: string): PrimitiveType | 'object';
+export declare function setProperty(
+  obj: object,
+  selector: string,
+  value: any,
+  divider?: string
+): object;
+export declare function getProperty(
+  obj: object,
+  selector: string,
+  divider?: string
+): PrimitiveType | object;
 export {};
